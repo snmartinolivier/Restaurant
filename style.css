@@ -1,0 +1,483 @@
+*{
+    margin: 0px;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+.a1{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    background-position: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 5;
+    box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
+}
+header{
+    margin-bottom: 10PXpx;
+    margin-top: 2px;
+}
+
+.nav a{
+    text-decoration: none;
+    text-align: right;
+    color: rgb(0, 0, 0);
+    margin: 0 10px;
+    padding: 20px;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.nav a:hover{
+    color: red;
+    text-decoration: underline;
+    transition: 1.5s;
+}
+
+.nav .menu{
+    list-style: none;
+    display: flex;
+    padding: 15px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.nav{
+    margin-left: 100px;
+ }
+
+ .logot{
+     margin-left: 30px;
+     width: 100px;
+ }
+ 
+ .logot .logo{
+     width: 100px;
+ }
+
+ .presentation{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 200px;
+    
+ }
+
+ .imagepres{
+    height: 500px;
+    margin-right: 40px;
+ }
+ .imagepre{
+    height: 400px;
+    animation: monteRedescend 2s infinite;
+ }
+
+ @keyframes monteRedescend {
+
+    0% {
+  
+      transform: translateY(0);
+  
+    }
+  
+    50% {
+  
+      transform: translateY(-20px);
+  
+    }
+  
+    100% {
+  
+      transform: translateY(0);
+  
+    }
+  
+  }
+
+  .text_presentation{
+    text-align: left;
+    margin-top: 10px;
+    font-size: 30px;
+    margin-left: 10px;
+    text-justify: inherit;
+    width: 800px;
+    height: 0px;
+    font-size: 15px;
+  }
+  .text_presentation h1{
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-weight: 100%;
+  font-style:italic;
+  font-size: 70px;
+  }
+
+.text_presentation p{
+  font-family: "Playwrite CU", cursive;
+  color: black;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+  .button{
+    text-decoration: none;
+    color: red;
+    border: 1px solid red;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 20px;
+  }
+  .button:hover{
+    background-color: red;
+    color: white;
+    transition: 1.5s;
+  }
+  .barre{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 30px;
+   margin-left: 30%;
+    width: 700px;
+    align-content: center;
+    font-weight: bold;
+    font-size: 60px;
+    
+  }
+
+  
+
+  .specialite{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 40px;
+    margin-top: 100px;
+    gap: 2px;
+    margin-bottom: 100px;
+  }
+  .imgsp{
+    width: 300px;
+    height: 200px;
+    margin: 30px;
+    position: relative;
+  }
+  .imgsp img{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
+    border: 5px solid white;
+  }
+  .i1_hidden {
+    position: absolute;
+
+    top: 0;
+  
+    left: 0;
+  
+    width: 100%;
+    
+    height: 100%;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.466); 
+  
+    color: white; 
+    padding: 0;
+    display: none; 
+    align-content: center;
+    text-align: center;
+  }
+  
+  .imgsp:hover .i1_hidden {
+    display: block;
+    background-image: url(IMAGES/19256448_6103406.jpeg);
+    background-position: center;
+    background-size: cover;
+  }
+
+  .i1_hidden h1{
+    margin-left: 10px;
+    font-size: 30px;
+    color: white;
+    align-content: center;
+    text-decoration: underline;
+  }
+
+  .i1_hidden p{
+    margin-left: 30px;
+    margin-bottom: 10px;
+    font-family: "Playwrite CU", cursive;
+    font-size: 10px;
+    color: black;
+  }
+  
+
+  .containe{
+    display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin: 40px;
+  justify-content: center;
+  margin-top: 60px;
+  margin-bottom: 100px;
+  }
+  .box{
+    width: 300px;
+    height: 400px;
+    background-color: rgb(243, 241, 241);
+    padding: 20px;
+    border-radius: 10px;
+    padding: 20px;
+  }
+
+  .box .prix{
+    background-color: white;
+    color: red;
+    margin-left: 120px;
+    padding: 10px;
+    margin-top: 60px;
+    
+  }
+
+  .box img{
+    height: 200px;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
+
+  }
+  .box h3{
+    margin-top: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .box  .starss{
+    margin-top: 20px;
+    margin-left: 90px;
+    color: yellow;
+  }
+
+  .box a{
+    text-decoration: none;
+    color: red;
+    border: 1px solid red;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 20px;
+  }
+
+  .box a:hover{
+    background-color: red;
+    color: white;
+    transition: 1.2s;
+  }
+
+  .box .btn{
+    margin-left: 50px;
+    margin-top: 20px;
+   
+  }
+
+.containes{
+  width: 300px;
+    height: 200px;
+    margin: 30px;
+    position: relative;
+}
+  .containess{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 40px;
+    margin-top: 100px;
+    gap: 30px;
+    margin-bottom: 100px;
+  }
+  .containes .boxs{
+    position: absolute;
+
+    top: 0;
+  
+    left: 0;
+  
+    width: 100%;
+  
+    height: 100%;
+  
+    background-color: rgba(139, 138, 138, 0.644); 
+    border-radius: 10px;
+    color: black; 
+    border: 5px solid white;
+    display: none; 
+    align-content: center;
+    text-align: center;
+  }
+
+  .containes .boxs a{
+    text-decoration: none;
+    color: black;
+    border: 2px solid red;
+    border-radius: 4px;
+    padding: 3px;
+    background-color: rgb(255, 255, 255);
+  }
+  .containes .boxs a:hover{
+    background-color: white;
+    color: red;
+    transition: 1.3s;
+  }
+  .containes .boxs h3{
+    color: red;
+    font-size: 30px;
+  }
+  .containes .boxs p{
+    color: white;
+    font-family: "Playwrite CU", cursive;
+    font-size: 10px;
+  }
+  
+
+  .containes img{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
+    border: 5px solid white;
+  }
+
+  .containes:hover .boxs{
+    display: block;
+  }
+
+  .kases{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 40px;
+    margin-top: 100px;
+    gap: 30px;
+    margin-bottom: 100px;
+  }
+  .kases .kase{
+    height: 400px;
+    width: 300px;
+    background-color: black;
+    justify-content: center;
+    color: white;
+    border-radius: 10px;
+  }
+  .kases .kase img{
+height: 100px;
+width: 100px;
+border-radius: 50%;
+margin-left: 100px;
+margin-top: 30px;
+border: 5px solid white;
+  }
+
+  .kases .kase h3, .stars, p{
+    margin-left: 5px;
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+  }
+
+
+  .reservations{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 80px;
+  }
+
+  .reservations .formul{
+    height: 400px;
+    width: 450px;
+    margin-right: 1px;
+    border-radius: 5pc;
+  }
+  .reservations .formul img{
+    height: 100%;
+ }
+
+ .reservations .formul form{
+  margin-left: 150px;
+  width: 600px;
+ }
+
+ .reservations .formul .inputBox{
+  display: flex;
+  padding: 20px;
+  flex-wrap: wrap;
+  
+ }
+ .reservations .formul .inputBox input{
+  width: 250px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid red;
+  padding: 10px;
+ }
+
+ .reservations .formul form{
+  padding: 5px;
+ }
+
+ .reservations .formul form textarea{
+  border: 1px solid red;
+  border-radius: 10px;
+  margin-left: 20px;
+ }
+
+ .reservations .formul form .btn{
+  color: red;
+  border: 1px solid red;
+  margin-left: 20px;
+  border-radius: 10px;
+  padding: 10px;
+  background: none;
+ }
+
+ .reservations .formul form .btn:hover{
+  background-color: red;
+  color: white;
+  border: 1px solid black;
+  transition: 1.5s;
+ }
+
+ .footer{
+  background-color: black;
+  color: white;
+  height: 150px;
+  text-align: center;
+  padding: 50px;
+ }
+ 
+ .footer .share, credit{
+  margin-bottom: 2px;
+  font-size: 10px;
+ }
+ .footer a{
+  text-decoration: none;
+  margin: 80px;
+  color: red;
+  border: 2px solid red;
+  border-radius: 10px;
+  padding: 7px 14px;
+ }
+
+ .footer a:hover{
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  transition: 1.5s;
+ }
+
+
+
+ 
